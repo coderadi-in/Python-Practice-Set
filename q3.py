@@ -8,8 +8,8 @@ Then, the output should be:
 
 def get_sq(n: int):
 	data: dict = {}
-		for i in range(1, n+1):
-			data[i] = i*i
+	for i in range(1, n+1):
+		data[i] = i*i
 	return data
 
 print(get_sq(8))
